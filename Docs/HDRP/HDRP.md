@@ -1,2 +1,2 @@
 ### Obstruction Dissolve
-![Dissolver](Docs/HDRP/dissolver.gif)
+![Dissolver](dissolver.gif)
