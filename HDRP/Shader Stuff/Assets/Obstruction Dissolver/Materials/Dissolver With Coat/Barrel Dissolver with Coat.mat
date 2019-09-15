@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Barrel Dissolver with Coat
+  m_Shader: {fileID: -6465566751694194690, guid: 2cbf4e568afb0d74bbfd41b5ce056529,
+    type: 3}
+  m_ShaderKeywords: _ALPHATEST_ON
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap:
+    MotionVector: User
+  disabledShaderPasses:
+  - MOTIONVECTORS
+  - TransparentBackface
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - Albedo:
+        m_Texture: {fileID: 2800000, guid: c780b1290739d7f43b131961e66551bf, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_57AE50E0:
+        m_Texture: {fileID: 2800000, guid: cf441cea50358004caecf38a43b97072, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_A96DC8D4:
+        m_Texture: {fileID: 2800000, guid: 885f21deca0e9d04f8c460242e5d5326, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_B04DE961:
+        m_Texture: {fileID: 2800000, guid: 392f41f10f6cad847a50079255659217, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_C7DB1F85:
+        m_Texture: {fileID: 2800000, guid: d68219bceb12ccb4db24f84194631d0d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - Texture2D_DBD9FE8E:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Vector1_5D2AA494: 1
+    - Vector1_6CF390C8: 0.5
+    - Vector1_8DA4177C: 0.35
+    - Vector1_8FAEA8AF: 0.7
+    - Vector1_95E654FE: 0.3
+    - Vector1_BE4F688C: 0
+    - _AlphaCutoff: 0.5
+    - _AlphaCutoffEnable: 1
+    - _AlphaDstBlend: 0
+    - _AlphaSrcBlend: 1
+    - _BlendMode: 0
+    - _CullMode: 2
+    - _CullModeForward: 2
+    - _DoubleSidedEnable: 0
+    - _DoubleSidedNormalMode: 2
+    - _DstBlend: 0
+    - _ReceivesSSR: 1
+    - _RenderQueueType: 1
+    - _RequireSplitLighting: 0
+    - _SrcBlend: 1
+    - _StencilRef: 2
+    - _StencilRefDepth: 0
+    - _StencilRefDistortionVec: 64
+    - _StencilRefGBuffer: 2
+    - _StencilRefMV: 128
+    - _StencilWriteMask: 3
+    - _StencilWriteMaskDepth: 48
+    - _StencilWriteMaskDistortionVec: 64
+    - _StencilWriteMaskGBuffer: 51
+    - _StencilWriteMaskMV: 176
+    - _SurfaceType: 0
+    - _TransparentBackfaceEnable: 0
+    - _TransparentCullMode: 2
+    - _TransparentSortPriority: 0
+    - _UseShadowThreshold: 0
+    - _ZTestDepthEqualForOpaque: 3
+    - _ZTestGBuffer: 3
+    - _ZTestTransparent: 4
+    - _ZWrite: 1
+    m_Colors:
+    - CoatDirection: {r: 0, g: 0, b: 0, a: 0}
+    - Color_C3932160: {r: 0.8301887, g: 0.8301887, b: 0.8301887, a: 1}
+    - Color_E4070E4: {r: 0.8867924, g: 0.8867924, b: 0.8867924, a: 1}
+    - Outline_Color: {r: 32, g: 9.047119, b: 0, a: 0}
+    - PlayerWorldPosition: {r: 53.21, g: 1.4728123, b: -18.42, a: 0}
+    - Vector2_23DD5041: {r: 0, g: 1, b: 0, a: 0}
+    - Vector2_62E83940: {r: 0, g: 0.25, b: 0, a: 0}
+    - Vector2_AC880A1B: {r: 1, g: 1, b: 0, a: 0}
+    - Vector2_BA1B4A1A: {r: 0, g: 0, b: 0, a: 0}
+    - Vector2_E0753DFB: {r: 0, g: 0.5, b: 0, a: 0}
+    - Vector3_5E9564FD: {r: 0, g: 0, b: 0, a: 0}
+    - _DoubleSidedConstants: {r: 1, g: 1, b: -1, a: 0}
+    - _EmissionColor: {r: 1, g: 1, b: 1, a: 1}
