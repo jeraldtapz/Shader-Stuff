@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e6292b2c06870d4495f009f912b9600, type: 3}
+  m_Name: Post-process Profile
+  m_EditorClassIdentifier: 
+  settings:
+  - {fileID: 6741981601093443653}
+--- !u!114 &6741981601093443653
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 25a4f351317f4b944a593e8748e41b75, type: 3}
+  m_Name: Colorblind
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 0
+  RedValues:
+    overrideState: 1
+    value: {x: 0.5667, y: 0.1833, z: 0}
+  GreenValues:
+    overrideState: 1
+    value: {x: 0.5583, y: 0.4417, z: 0}
+  BlueValues:
+    overrideState: 1
+    value: {x: 0, y: 0.2417, z: 0.7583}
