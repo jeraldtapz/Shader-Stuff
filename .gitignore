@@ -567,3 +567,5 @@ crashlytics-build.properties
 # End of https://www.gitignore.io/api/unity,csharp,visualstudio
 Standard/Shader Stuff/Library
 Standard/Shader Stuff/Temp
+HDRP/Shader Stuff/Library
+HDRP/Shader Stuff/Temp

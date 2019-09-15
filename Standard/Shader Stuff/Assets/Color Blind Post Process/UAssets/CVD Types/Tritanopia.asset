@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa9f5236a4c4252458b453642e2cd2ba, type: 3}
   m_Name: Tritanopia
   m_EditorClassIdentifier: 
-  Type: 0
+  Type: 5
   Mix:
     RedValues: {x: 0.95, y: 0.05, z: 0}
     GreenValues: {x: 0, y: 0.433, z: 0.567}
